@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	font-family: 'Raleway', cursive;
+	color: white;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 110px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+#headline{
+	position: absolute;
+	padding: 0;
+	margin-top: 35px;
+	background-image: url("../bilder/biblogo.png");
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 180px;
+}
+#container{
+	position: relative;
+	width: 100%;
+	height: 510px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	height: 510px;
+	margin: auto;
+}
+#content_top{
+	position: absolute;
+	width: 765px;
+	heigth: 248px;
+	top: 0;
+	left: 0;
+}
+	#box1{
+		position: absolute;
+		background-color: #054C8E;
+		width: 375px;
+		height: 248px;
+		top: 0;
+		left: 0;
+	}
+		#text_head{
+			position: relativ;
+			width: 300px;
+			height: 50px;
+			margin: auto;
+		}
+		#text_content{
+			position: relativ;
+			width: 300px;
+			height: 120px;
+			margin: auto;
+			font-size: 16pt;
+		}
+		
+		#intro_head{
+			font-size: 18pt;
+		}
+		#intro_content{
+			font-size: 16pt;
+		}
+	
+	#box2{
+		position: absolute;
+		background-image: url("../bilder/battlestation-500x375.jpg");
+		width: 375px;
+		height: 248px;
+		top: 0;
+		left: 390px;
+	}
+	
+#content_bottom{
+	position: absolute;
+	width: 765px;
+	heigth: 248px;
+	top: 263px;
+	left: 0;
+}
+	#box3{
+		position: absolute;
+		background-color: #054C8E;
+		width: 100%;
+		height: 248px;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		overflow: hidden;
+	}
+
+#content_right{
+	position: absolute;
+	width: 180px;
+	heigth: 510px;
+	top: 0;
+	right: 0;
+}
+	#box5{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 0;
+	}
+	#box6{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 105px;
+	}
+	#box7{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 210px;
+	}
+	#box8{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 315px;
+	}
+	#box9{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 420px;
+	}

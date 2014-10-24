@@ -1,0 +1,198 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	font-family: 'Raleway', cursive;
+	color: white;
+}
+body p{
+	margin: 0;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 150px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+	#headline{
+		position: absolute;
+		padding: 0;
+		margin-top: 35px;
+		background-image: url("../bilder/litteratur_logo.png");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 180px;	
+	}
+	#btnBack{
+		position: absolute;
+		background-image: url("../bilder/next_left.png");
+		width: 35px;
+		height: 35px;
+		top: 130px;
+		cursor: hand;
+		cursor: pointer;
+	}
+#container{
+	position: relative;
+	width: 100%;
+	min-height: 420px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	min-height: 420px;
+	margin: auto;	
+}
+	#boxTop{
+		position: absolute;
+		background-color: #054C8E;
+		width: 100%;
+		height: 70px;
+		font-size: 22pt;
+	}
+		#textTopLeft{
+			position: absolute;
+			width: 480px;
+			height: 40px;
+			top: 20px;
+			left: 20px;
+			font-size: 22pt;
+		}		
+		
+		#top_dropdown{
+			position: absolute;
+			background-color: #054C8E;
+			width: 472px;
+			height: 70px;
+			top: 0px;
+			left: 488px;
+			z-index: 11;
+			overflow: hidden;
+		}
+			#drop_down_content{
+				position: absolute;
+				width: 472px;
+				height: 400px;
+				top: 20px;
+				left: 30px;
+				z-index: 11;
+			}
+			
+			#drop_down_content p{
+				margin-bottom: 2px;
+			}
+			#drop_down_content a{
+				color: white;
+				text-decoration: none;
+			}
+			#drop_down_content a:hover{
+				text-decoration: underline;
+			}
+			
+			
+		#btnTop{
+			position: absolute;
+			background-image: url("../bilder/next_down.png");
+			width: 35px;
+			height: 35px;
+			top: 20px;
+			left: 900px;
+			cursor: pointer; 
+			cursor: hand;
+			z-index: 12;			
+		}
+		
+		#boxMid{
+			position: absolute;
+			width: 100%;
+			height: 350px;
+			top: 85px;
+		}
+			#box1{
+				position: absolute;
+				background-color: #388DCA;
+				width: 472px;
+				height: 160px;
+			}
+				#box1 p{
+					position: absolute;
+					left: 10px;
+					top: 10px;
+					font-size: 18px;
+				}
+				
+			#box2{
+				position: absolute;
+				background-image: url("../bilder/bilbliotek.png");
+				width: 472px;
+				height: 160px;
+				top: 175px;
+				
+			}
+			#box3{
+				position: absolute;
+				background-color: #388DCA;
+				width: 472px;
+				height: 335px;
+				left: 488px;
+			}
+				#box3Head{
+					position: absolute;
+					top: 10px; 	
+					left: 30px;
+					font-size: 30pt;
+				}
+				#sokefelt{
+					position: absolute;
+					top: 70px; 	
+					left: 35px;
+				}
+					select{
+						width: 250px;
+						height: 30px;
+						font-size: 14pt;
+						font-family: 'Raleway', cursive;
+					}
+				#resultat{
+					position: absolute;
+					background-color: #232323;
+					width: 400px;
+					height: 200px;
+					top: 120px; 
+                    padding:5px;
+					left: 35px;
+					font-size: 12pt;
+				}
+		#boxBottom{
+			position: absolute;
+			background-color: #388DCA;
+			width: 472px;
+			top: 420px;
+			left: 488px;
+		}
+		
+		
+#footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	font-family: 'Raleway', cursive;
+	color: white;
+	font-size: 10pt;
+	text-align: center;
+	padding: 10px;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

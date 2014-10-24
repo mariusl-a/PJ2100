@@ -1,0 +1,42 @@
+body
+{
+    font-family: "Lucida Sans Unicode";
+    background-color: rgb(240,240,240);
+}
+h1
+{
+    font-size:12px;
+    display: inline;
+}
+#divLoginBox
+{
+    background-color: rgb(230,230,230);
+    width:350px;
+    margin:0 auto;
+    border:2px solid blue;   
+    padding:15px;   
+    margin-top:150px;
+    font-size:12px;
+}
+#divLoginForm
+{
+    width:250px;
+    margin:0 auto;
+}
+#divLoginForm input
+{
+    font-family: "Lucida Sans Unicode";
+    font-size:12px;
+    width:175px;
+}
+
+input
+{
+    border-radius: 5px;    
+}
+h2
+{
+    display:none;
+    font-size:10px;
+    color:red;
+}

@@ -1,0 +1,423 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	font-family: 'Raleway', cursive;
+	color: white;
+}
+body p{
+	margin: 0;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 150px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+	#headline{
+		position: absolute;
+		padding: 0;
+		margin-top: 35px;
+		background-image: url("../bilder/battlestation_logo.png");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 180px;
+	}
+	#btnbackToHome{
+		position: absolute;
+		background-image: url("../bilder/next_left.png"); 
+		width: 35px;
+		height: 35px;
+		top: 130px;
+		cursor: pointer;
+		cursor: hand;
+	}
+
+#container{
+	position: relative;
+	width: 100%;
+	height: 510px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	height: 510px;
+	margin: auto;
+}
+#content_top{
+	position: absolute;
+	width: 765px;
+	height: 248px;
+	top: 0;
+	left: 0;
+}
+	#box1{
+		position: absolute;
+		background-color: #054C8E;
+		width: 375px;
+		height: 248px;
+		top: 0;
+		left: 0;
+	}
+		#text_head{
+			position: absolute;
+			width: 300px;
+			height: 50px;
+			top: 20px;
+			left: 30px;
+			font-size: 30px;
+		}
+		#text_content{
+			position: absolute;
+			width: 300px;
+			height: 120px;
+			top: 110px;
+			left: 30px;
+			font-size: 20px;
+		}
+	
+	#box2{
+		position: absolute;
+		background-image: url("../bilder/battlestation-500x375.jpg");
+		width: 375px;
+		height: 248px;
+		top: 0;
+		left: 390px;
+	}
+	
+#content_bottom{
+	position: absolute;
+	width: 765px;
+	height: 248px;
+	top: 263px;
+	left: 0;
+}
+	#box3{
+		position: absolute;
+		background-color: #054C8E;
+		width: 375px;
+		height: 248px;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		overflow: hidden;
+	}
+		#btnLesMer{
+			position: absolute;
+			background-image: url("../bilder/next_right.png");
+			width: 35px;
+			height: 35px;
+			top: 210px;
+			left: 315px;
+            z-index:6;
+			text-align: center;
+			cursor: pointer; 
+			cursor: hand;	
+		}	
+		
+		#regler_left{
+			position: absolute;
+			width: 300px;
+			height: 550px;
+			left: 30px;
+			top: -5px;
+			font-size: 20px;
+		}
+			#regler_head{
+				position: absolute;
+				width: 300px;
+				height: 50px;
+				left: 0px;
+				top: 20px;
+				font-size: 30px;
+			}
+		#regler_right{
+			position: absolute;
+			width: 300px;
+			height: 550px;
+			left: 425px;
+			top: 110px;
+			font-size: 20px;
+		}
+		
+	#box4{
+		position: absolute;
+		background-color: #054C8E;
+		width: 375px;
+		height: 248px;
+		top: 0;
+		left: 390px;
+	}
+		#box4Head{
+			position: absolute;
+			top: 20px; 	
+			left: 30px;
+			font-size: 24pt;
+		}
+		#tittel{
+			position: absolute;
+			top: 90px; 	
+			left: 30px;
+			font-size: 16pt;
+		}
+		#konsoll{
+			position: absolute;
+			top: 130px; 	
+			left: 30px;
+			font-size: 16pt;
+		}
+		#sokefelt1{
+			position: absolute;
+			top: 90px; 	
+			left: 130px;
+		}
+		#sokefelt2{
+			position: absolute;
+			top: 130px; 	
+			left: 130px;
+		}
+			input{
+				width: 180px;
+				height: 27px;
+				font-size: 14pt;
+				font-family: 'Raleway', cursive;
+			}
+			select{
+				width: 186px;
+				height: 30px;
+				font-size: 14pt;
+				font-family: 'Raleway', cursive;
+			}
+
+#content_right{
+	position: absolute;
+	width: 180px;
+	height: 510px;
+	top: 0;
+	right: 0;
+}
+	#box5{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 0;
+	}
+		#wii{
+			position: absolute;
+			background-image: url("../bilder/tv.png");
+			width: 80px;
+			height: 80px;
+			top: 5px;
+			left: 5px;
+		}
+		#wiiText{
+			position: absolute;
+			width: 100px;
+			height: 20px;
+			top: 5px;
+			left: 100px;
+			font-size: 20px;
+		}
+		#wiiStatus{
+			position: absolute;
+			background-color: #00FF00;
+			width: 20px;
+			height: 20px;
+			top: 35px;
+			left: 120px;
+			
+		}
+	#box6{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 105px;
+	}
+		#xbox1{
+			position: absolute;
+			background-image: url("../bilder/tv.png");
+			width: 60px;
+			height: 80px;
+			top: 5px;
+			left: 10px;
+		}
+		#xbox1Text{
+			position: absolute;
+			width: 100px;
+			height: 20px;
+			top: 5px;
+			left: 100px;
+			font-size: 20px;
+		}
+		#xbox1Status{
+			position: absolute;
+			background-color: #00FF00;
+			width: 20px;
+			height: 20px;
+			top: 35px;
+			left: 120px;
+		}
+		
+	#box7{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 210px;
+	}
+		#xbox2{
+			position: absolute;
+			background-image: url("../bilder/tv.png");
+			width: 60px;
+			height: 80px;
+			top: 5px;
+			left: 10px;
+		}
+		#xbox2Text{
+			position: absolute;
+			width: 100px;
+			height: 20px;
+			top: 5px;
+			left: 100px;
+			font-size: 20px;
+		}
+		#xbox2Status{
+			position: absolute;
+			background-color: #00FF00;
+			width: 20px;
+			height: 20px;
+			top: 35px;
+			left: 120px;
+		}
+		
+	#box8{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 315px;
+	}
+		#ps31{
+			position: absolute;
+			background-image: url("../bilder/tv.png");
+			width: 80px;
+			height: 80px;
+			top: 5px;
+			left: 5px;
+		}
+		#ps31Text{
+			position: absolute;
+			width: 100px;
+			height: 20px;
+			top: 5px;
+			left: 100px;
+			font-size: 20px;
+		}
+		#ps31Status{
+			position: absolute;
+			background-color: #00FF00;
+			width: 20px;
+			height: 20px;
+			top: 35px;
+			left: 120px;
+		}
+		
+	#box9{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 180px;
+		height: 90px;
+		top: 420px;
+	}
+		#ps32{
+			position: absolute;
+			background-image: url("../bilder/tv.png");
+			width: 80px;
+			height: 80px;
+			top: 5px;
+			left: 5px;
+		}
+		#ps32Text{
+			position: absolute;
+			width: 100px;
+			height: 20px;
+			top: 5px;
+			left: 100px;
+			font-size: 20px;
+		}
+		#ps32Status{
+			position: absolute;
+			background-color: #00FF00;
+			width: 20px;
+			height: 20px;
+			top: 35px;
+			left: 120px;
+		}
+	
+	#resultat{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 100%;
+        left:390px;
+        width:375px;
+        display:none;
+		top: 510px;
+        margin-bottom:100px;
+        z-index:5;
+	}
+    #tableResults{
+        width:100%;
+        background-color:rgb(240,240,240);
+        color:black;
+        border-collapse: collapse;
+    }
+    #tableResults th {
+        background-color:rgb(230, 230, 230);
+    }
+    #tableResults td {
+        background-color:rgb(255,255,255);
+    }
+    #tableResults th, #tableResults tr, #tableResults td
+    {
+        padding:5px;
+        margin:0;
+    }
+.tv{
+    position: absolute;
+    background-image: url("../bilder/tv.png");
+    width: 80px;
+    height: 80px;
+    top: 5px;
+    left: 5px;
+}
+.tvText{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: 5px;
+    left: 100px;
+    font-size: 20px;
+}
+.tvStatus{
+    position: absolute;
+    background-color: #00FF00;
+    width: 20px;
+    height: 20px;
+    border-radius:5px;
+    top: 35px;
+    left: 120px;
+}
+#footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	font-family: 'Raleway', cursive;
+	color: white;
+	font-size: 10pt;
+	text-align: center;
+	padding: 10px;
+}

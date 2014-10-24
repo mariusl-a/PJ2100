@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	font-family: 'Raleway', cursive;
+	color: white;
+}
+body p{
+	margin: 0;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 150px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+	#headline{
+		position: absolute;
+		padding: 0;
+		margin-top: 35px;
+		background-image: url("../bilder/veiledning_logo.png");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 180px;
+	}
+	#btnbackToHome{
+			position: absolute;
+			background-image: url("../bilder/next_left.png"); 
+			width: 35px;
+			height: 35px;
+			top: 130px;
+	}
+#container{
+	position: relative;
+	width: 100%;
+	height: 720px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	height: 720px;
+	margin: auto;
+}
+
+#box_left1{
+	position: absolute;
+	background-color: #054C8E;
+	width: 365px;
+	height: 255px;
+	top: 0;
+	left: 0;
+}
+	#box1_text_head{
+		position: absolute;
+		width: 300px;
+		height: 50px;
+		top: 20px;
+		left: 30px;
+		font-size: 30px
+	}
+	#box1_text_content{
+		position: absolute;
+		width: 300px;
+		height: 120px;
+		top: 60px;
+		left: 30px;
+		font-size: 18px;
+	}
+	
+#box_left2{
+	position: absolute;
+	background-image: url("../bilder/veiledning_bilde.png");
+	width: 365px;
+	height: 175px;
+	top: 270px;
+	left: 0px;
+}
+	
+#box_right{
+	position: absolute;
+	background-color: #054C8E;
+	width: 580px;
+	height: 445px;
+	top: 0px;
+	left: 380px;
+}
+	#right_text_head{
+		position: absolute;
+		width: 500px;
+		height: 405px;
+		top: 20px;
+		left: 30px;
+		font-size: 30px;
+		
+	}
+	#right_text_content{
+		position: absolute;
+		width: 500px;
+		height: 350px;
+		top: 70px;
+		left: 30px;
+		font-size: 16px;
+		overflow: auto;	
+	}
+#box_bottom{
+	position: absolute;
+	background-color: #388DCA;
+	width: 100%;
+	height: 250px;
+	top: 460px;
+	right: 0;
+
+}
+	#bilde1{
+		position: absolute;
+		background-image: url("../bilder/vei_bilde1.png");
+		width: 174px;
+		height: 94px;
+		top: 81px;
+		left: 15px;
+	}
+	#bilde2{
+		position: absolute;
+		background-image: url("../bilder/vei_bilde2.png");
+		width: 174px;
+		height: 98px;
+		top: 77px;
+		left: 204px;
+	}
+	#bilde3{
+		position: absolute;
+		background-image: url("../bilder/vei_bilde3.png");
+		width: 174px;
+		height: 131px;
+		top: 59px;
+		left: 393px;
+	}
+	#bilde4{
+		position: absolute;
+		background-image: url("../bilder/vei_bilde4.png");
+		width: 174px;
+		height: 94px;
+		top: 77px;
+		left: 582px;
+	}
+	#bilde5{
+		position: absolute;
+		background-image: url("../bilder/vei_bilde5.png");
+		width: 174px;
+		height: 131px;
+		top: 59px;
+		left: 771px;
+	}
+#footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	font-family: 'Raleway', cursive;
+	color: white;
+	font-size: 10pt;
+	text-align: center;
+	padding: 10px;
+}
+	

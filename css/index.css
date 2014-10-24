@@ -1,0 +1,393 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 110px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+#headline{
+	position: absolute;
+	padding: 0;
+	margin-top: 35px;
+	background-image: url("../bilder/biblogo.png");
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 180px;
+}
+#container{
+	position: relative;
+	width: 100%;
+	height: 510px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	height: 510px;
+	margin: auto;
+}
+#content_top{
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	top: 0px;
+}
+	#box1{
+		position: absolute;
+		background-color: #00AEDD;
+		width: 465px;
+		height: 160px;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+		
+	#box2{
+		position: absolute;
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 480px;
+	}
+		#front2{
+			position: absolute;
+			background-image: url("../bilder/onske_tile.png");
+			width: 150px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back2{
+			position: absolute;
+			background-color: #00AEDD;
+			width: 150px;
+			height: 160px;
+		}
+		
+	#box3{
+		position: absolute;
+		background-image: url("../bilder/bokanbefaling_stor.png");
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 645px;
+		z-index: 11;
+	}
+	
+	#box4{
+		position: absolute;
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 810px;
+	}
+		#front4{
+			position: absolute;
+			background-image: url("../bilder/sisteinnkjop_tile.png");
+			width: 150px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back4{
+			position: absolute;
+			background-color: #00AEDD;
+			width: 150px;
+			height: 160px;
+		}
+		
+		
+#content_middle{
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	top: 175px;
+}
+	#box5{
+		position: absolute;
+		background-image: url("../bilder/trude_longtile.png");
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 0;
+		z-index: 11;
+	}
+		
+	#box6{
+		position: absolute;
+		background-image:url('../bilder/aapningstider_tile.png');
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 165px;
+		overflow: hidden;
+	}
+		
+	#box7{
+		position: absolute;
+		width: 300px;
+		height: 160px;
+		top: 0;
+		left: 330px;
+	}
+		#front7{
+			position: absolute;
+			background-image: url("../bilder/bs_tile.png");
+			width: 300px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back7{
+			position: absolute;
+			background-color: #054C8E;
+			width: 300px;
+			height: 160px;
+		}
+			#back7 ul{
+				list-style-type: none;
+				font-family: 'Raleway', cursive;
+				font-size: 20pt;
+				z-index: 10;
+			}
+			#battleStationUL a{
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+			
+		
+	#box8{
+		position: absolute;
+		width: 315px;
+		height: 160px;
+		top: 0;
+		left: 645px;
+	}	
+		#front8{
+			position: absolute;
+			background-image: url("../bilder/brettspill_tile.png");
+			width: 315px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back8{
+			position: absolute;
+			background-color: #054C8E;
+			width: 315px;
+			height: 160px;
+		}
+			#back8 ul{
+				list-style-type: none;
+				font-family: 'Raleway', cursive;
+				font-size: 20pt;
+			}
+			#brettSpillUL a{
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+		
+
+#content_bottom{
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	top: 350px;  
+}	
+	#box9{
+		position: absolute;
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 0;
+	}
+		#front9{
+			position: absolute;
+			background-image: url("../bilder/englishmaster_tile.png");
+			width: 150px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back9{
+			position: absolute;
+			background-color: #054C8E;
+			width: 150px;
+			height: 160px;
+		}
+		
+		
+	#box10{
+		position: absolute;
+		width: 150px;
+		height: 160px;
+		top: 0;
+		left: 165px;
+	}
+		#front10{
+			position: absolute;
+			background-image: url("../bilder/utlaan_tile.png");
+			width: 150px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back10{
+			position: absolute;
+			background-color: #054C8E;
+			width: 150px;
+			height: 160px;
+		}
+		
+		
+	#box11{
+		position: absolute;
+		width: 300px;
+		height: 160px;
+		top: 0;
+		left: 330px;
+	}
+		#front11{
+			position: absolute;
+			background-image: url("../bilder/info_tile.png");
+			width: 300px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back11{
+			position: absolute;
+			background-color: #054C8E;
+			width: 300px;
+			height: 160px;
+		}
+			#back11 ul{
+				list-style-type: none;
+				font-family: 'Raleway', cursive;
+				font-size: 20pt;
+			}
+			#veiledningUL a{
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+		
+		
+	#box12{
+		position: absolute;
+		width: 315px;
+		height: 160px;
+		top: 0;
+		left: 645px;
+	}
+		#front12{
+			position: absolute;
+			background-image: url("../bilder/litteratur_tile.png");
+			width: 315px;
+			height: 160px;
+			z-index: 10;
+		}
+		#back12{
+			position: absolute;
+			background-color: #054C8E;
+			width: 315px;
+			height: 160px;
+		}
+			#back12 ul{
+				list-style-type: none;
+				font-family: 'Raleway', cursive;
+				font-size: 20pt;
+			}
+			#litteraturUL a{
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+			
+#footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	font-family: 'Raleway', cursive;
+	color: white;
+	font-size: 10pt;
+	text-align: center;
+	padding: 10px;
+}
+.twtr-tweet-text {
+    font-size: 105%;
+    font-family: 'Raleway', cursive;
+}
+.twtr-hd {
+	font-family: 'Raleway', cursive;
+}
+
+#divWishContainer
+{
+    display:none;
+    position: fixed;
+    width:100%;
+    height:100%;
+    background-color:grey;
+    opacity:0.7;
+    z-index: 50;
+}
+#divMakeWish
+{
+    display:none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:-225px;
+    width:450px;
+    background-color:rgb(5,76,142);
+    z-index: 51;
+    /*border:3px solid #232323;*/
+}
+#divMakeWish textarea, #divMakeWish input
+{
+    width:390px;
+    margin:5px;
+    font-family: 'Raleway', cursive;
+    font-weight:bold;
+    border-radius:5px;
+    font-size:16px;
+    padding:5px;
+}
+
+#divMakeWishClose
+{
+    background-image: url('../bilder/close.png');
+    height: 18px;
+    width: 18px;
+    margin:5px;
+    position: absolute;
+    right:0;
+}
+#divWishForm
+{
+    margin:25px;
+}
+/*
+#divResult
+{
+    margin:0 auto;
+    width:444px;
+    height:50px;
+    text-align: center;
+    background-color: rgb(100, 255,0);
+    padding-top: 15px;
+    display:none;
+    border:3px solid #232323;
+    font-weight:bold;
+}
+*/
+#divResult
+{
+    background-color:rgb(230,230,230);
+    font-size:16px;
+    padding:5px;
+    margin:5px;
+    width:390px;
+    border-radius:5px;
+    font-family: 'Raleway', cursive;
+    font-weight:bold;
+    display:none;
+}

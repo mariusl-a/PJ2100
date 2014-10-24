@@ -1,0 +1,198 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	font-family: 'Raleway', cursive;
+	color: white;
+}
+body p{
+	margin: 0;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 150px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+	#headline{
+		position: absolute;
+		padding: 0;
+		margin-top: 35px;
+		background-image: url("../bilder/brettspill_logo.png");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 180px;
+	}
+	#btnbackToHome{
+		position: absolute;
+		background-image: url("../bilder/next_left.png"); 
+		width: 35px;
+		height: 35px;
+		top: 130px;
+		cursor: pointer;
+		cursor: hand; 
+	}
+
+#container{
+	position: relative;
+	width: 100%;
+	height: 550px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	height: 550px;
+	margin: auto;
+}
+#content_top{
+	position: absolute;
+	width: 765px;
+	heigth: 248px;
+	top: 0;
+	left: 0;
+}
+	#box1{
+		position: absolute;
+		background-color: #054C8E;
+		width: 445px;
+		height: 248px;
+		top: 0;
+		left: 0;
+	}
+		#text_head{
+			position: absolute;
+			width: 300px;
+			height: 50px;
+			top: 20px;
+			left: 30px;
+			font-size: 30px;
+		}
+		#text_content{
+			position: absolute;
+			width: 300px;
+			height: 120px;
+			top: 80px;
+			left: 30px;
+			font-size: 20px;
+		}
+	
+	#box2{
+		position: absolute;
+		background-image: url("../bilder/brettspill_bilde.png");
+		width: 500px;
+		height: 248px;
+		top: 0;
+		left: 460px;
+	}
+	
+#content_bottom{
+	position: absolute;
+	width: 765px;
+	heigth: 248px;
+	top: 263px;
+	left: 0;
+}
+	#box3{
+		position: absolute;
+		background-color: #054C8E;
+		width: 445px;
+		height: 248px;
+		top: 0;
+		left: 0;
+	}
+		#event_head{
+			position: absolute;
+			width: 300px;
+			height: 70px;
+			left: 30px;
+			top: 20px;
+			font-size: 30px;
+		}
+		#event_content{
+			position: absolute;
+			width: 300px;
+			height: 150px;
+			left: 30px;
+			top: 110px;
+			font-size: 20px;
+		}
+			#event_content a{
+				color: white;
+			}
+			#event_content p{
+				margin-bottom: 2px;
+			}
+			
+		
+	#box4{
+		position: absolute;
+		background-color: #054C8E;
+		width: 500px;
+		height: 248px;
+		top: 0;
+		left: 460px;
+	}
+		#box4Head{
+			position: absolute;
+			top: 20px; 	
+			left: 30px;
+			font-size: 50px;
+		}
+		#tittel{
+			position: absolute;
+			top: 110px;
+			left: 30px;
+			font-size: 30px;
+		}
+		#sokefelt1{
+			position: absolute;
+			top: 110px; 	
+			left: 130px;
+		}
+			input{
+				width: 180px;
+				height: 27px;
+				font-size: 14pt;
+				font-family: 'Raleway', cursive;
+			}
+	
+	#resultat{
+		position: absolute;
+		background-color:rgb(255,255,255);
+		width: 500px;
+		left: 460px;
+		top: 510px;
+        z-index:5;
+        display:none;
+        
+	}
+    #tableResults{
+        width:100%;
+        background-color:rgb(240,240,240);
+        color:black;
+        border-collapse: collapse;
+        text-align:center;
+    }
+    #tableResults th {
+        background-color:rgb(230, 230, 230);
+    }
+    #tableResults td {
+        background-color:rgb(255,255,255);
+    }
+    #tableResults th, #tableResults tr, #tableResults td
+    {
+        padding:5px;
+        margin:0;
+    }
+#footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	font-family: 'Raleway', cursive;
+	color: white;
+	font-size: 10pt;
+	text-align: center;
+	padding: 10px;
+}

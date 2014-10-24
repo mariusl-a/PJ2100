@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	font-family: 'Raleway', cursive;
+	color: white;
+    font-weight: bold;
+}
+#header{
+	position: relative;
+	width: 960px;
+	height: 150px;
+	top: 0;
+	margin: auto;
+	margin-bottom: 25px;
+}
+	#headline{
+		position: absolute;
+		padding: 0;
+		margin-top: 35px;
+		background-image: url("../bilder/battlestation_logo.png");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 150px;
+	}
+	#btnBack{
+		position: absolute;
+		background-image: url("../bilder/next_left.png");
+		width: 35px;
+		height: 35px;
+		top: 130px;
+        z-index:10;
+		cursor: hand;
+		cursor: pointer;
+	}
+#container{
+	position: relative;
+	width: 100%;
+	height: 510px;
+}
+#container_content{
+	position: relative;
+	width: 960px;
+	height: 510px;
+	margin: auto;	
+}
+	#boxTop{
+		position: absolute;
+		background-color: #054C8E;
+		width: 350px;
+		height: 50px;
+	}
+		
+		#top_text{
+			position: absolute;
+			width: 100%;
+            text-align: center;
+			height: 60px;
+			top: -25px;
+			font-size: 26pt;
+		}
+	#boxLeft{
+		position: absolute;
+		background-color: #388DCA;
+		width: 350px;
+		height: 400px;
+		top: 65px;
+	}
+    #imgCenter {
+       height:100%;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+       border: 0;
+       text-align:center;
+    }
+	#boxRight{
+		position: absolute;
+		background-color: #054C8E;
+		width: 595px;
+		height: 465px;
+		left: 365px;
+	}
+		#right_head{
+			position: absolute;
+			width: 200px;
+			height: 50px;
+			top: -25px;
+			left: 30px;
+			font-size: 26pt;
+		}
+		#right_content{
+			position: absolute;
+			width: 530px;
+			height: 400px;
+			top: 70px;
+			left: 30px;
+			font-size: 16pt;
+		}
+		
+	#boxBottom{
+		position: absolute;
+		background-color: #054C8E;
+		width: 100%;
+		height: 50px;
+		top: 480px;
+	}
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,11 @@
+.tableGame
+{
+    width:60%;
+}
+.tableGame .inputBig {
+    width:100%;
+}
+.tableGame td
+{
+    vertical-align: top;
+}
